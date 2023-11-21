@@ -17,4 +17,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag yyx00xzz/ulsit-datascience:$(date +%s)
     - name: Push to Docker Hub
-      run: docker push ${{secret.DOCKER_USERNAME}}/ulsit-datascience:$(date +%s)
+      run: docker push ${{secrets.DOCKER_USERNAME}}/ulsit-datascience:$(date +%s)
