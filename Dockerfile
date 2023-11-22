@@ -5,4 +5,4 @@ RUN conda install -c conda-forge jupyterlab -y
 RUN conda install -c conda-forge streamlit -y
 RUN conda install jupyter notebook -y
 
-ENTRYPOINT /bin/bash
+CMD ["/bin/bash"]
