@@ -32,4 +32,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: yyx00xzz/ulsit-datascience:latest
+          tags: yyx00xzz/ulsit-datascience:autoRun
